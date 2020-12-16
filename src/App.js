@@ -14,7 +14,7 @@ function App() {
       <div className="App">
       <header className="App-header" style={{height:'12rem', minHeight:"auto"}}>
         <h1 style={{marginBottom:'.5rem'}}>Mystery At Garden Hall</h1>
-        <p style={{marginTop:'.5rem'}}>A choose your own path adventure</p>
+        <p style={{marginTop:'.5rem'}}>A choose your own adventure story</p>
         <nav>
           <NavLink exact to="/" activeClassName="active">Overview</NavLink>
           <NavLink exact to="/story" activeClassName="active">The Story</NavLink>
