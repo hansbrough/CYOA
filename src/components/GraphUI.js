@@ -2,8 +2,8 @@
 * Simple example of using the 'question-tree-core' package in React.
 */
 import React, { useEffect, useState } from 'react';
-//import DecisionTree from 'question-tree-core';
-import DecisionTree from "../utils/DecisionTree";// or debug w/the unpackaged files
+import DecisionTree from 'question-tree-core';
+//import DecisionTree from "../utils/DecisionTree";// or debug w/the unpackaged files
 import ReactMarkdown from 'react-markdown';
 
 const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) => {
@@ -45,7 +45,7 @@ const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) 
   // 1. fetch associated text file(s) 2. get text from file(s)
   // above requires 2 promise.all() calls.
   useEffect(() => {
-    console.log("currentQuestion:",currentQuestion)
+    //console.log("currentQuestion:",currentQuestion)
     const {media} = currentQuestion || {};
     if(media) {
       Promise.all(
@@ -77,7 +77,6 @@ const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) 
 
   // event handler examples
   const handleNextClick = () => {
-    console.log("handleNextClick")
     // 1. keep track of correctness of user answers.
     // if(currentAnswerId) {
     //   if(currentAnswerId === (currentQuestion && currentQuestion.actual)) {

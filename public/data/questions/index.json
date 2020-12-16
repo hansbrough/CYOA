@@ -366,7 +366,6 @@
     ],
     "labels":[
       {"title":"From your pocket you pull the “medusa key” and insert it.", "qid":"1060", "next":"into_the_passage"},
-      {"title":"Examine the main portrait", "qid":"1061", "next":"hollyhock_portrait"},
       {"title":"Leave the room and go outside to the back patio", "qid":"1062", "next":"back_patio_intro"}
     ],
     "category":"narrative",
@@ -449,6 +448,9 @@
     "media": [
       {"type":"text", "src":"/narrative/medusa_plant_collecting"}
     ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
+    ],
     "category":"narrative",
     "type":"link"
   },
@@ -493,6 +495,9 @@
     "media": [
       {"type":"text", "src":"/narrative/paradise_found"}
     ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
+    ],
     "category":"narrative",
     "type":"link"
   },
@@ -501,6 +506,9 @@
     "media": [
       {"type":"text", "src":"/narrative/crazy_uncle"}
     ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
+    ],
     "category":"narrative",
     "type":"link"
   },
@@ -508,6 +516,9 @@
     "title":"An Unexpected Run",
     "media": [
       {"type":"text", "src":"/narrative/fake_jog"}
+    ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
     ],
     "category":"narrative",
     "type":"link"
@@ -638,6 +649,9 @@
     "media": [
       {"type":"text", "src":"/narrative/crazy_on_the_walls"}
     ],
+    "labels":[
+      {"title":"Start over from the beginning.", "qid":"1163", "reset":"true"}
+    ],
     "category":"narrative",
     "type":"link"
   },
@@ -717,6 +731,9 @@
     "title":"Yell for Help",
     "media": [
       {"type":"text", "src":"/narrative/cottage_vent_yell"}
+    ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
     ],
     "category":"narrative",
     "type":"link"
@@ -809,7 +826,7 @@
       {"type":"text", "src":"/narrative/fantasic_wreckage"}
     ],
     "labels":[
-      {"title":"Want to Try again?", "qid":"0000"}
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
     ],
     "category":"narrative",
     "type":"link"
@@ -948,6 +965,9 @@
     "media": [
       {"type":"text", "src":"/narrative/comeuppance"}
     ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
+    ],
     "category":"narrative",
     "type":"link"
   },
@@ -955,6 +975,9 @@
     "title":"What a Shame",
     "media": [
       {"type":"text", "src":"/narrative/what_a_shame"}
+    ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
     ],
     "category":"narrative",
     "type":"link"
@@ -976,6 +999,9 @@
     "media": [
       {"type":"text", "src":"/narrative/glass_house_tools"}
     ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
+    ],
     "category":"narrative",
     "type":"link"
   },
@@ -996,6 +1022,9 @@
     "title":"Hiding in the Shadows",
     "media": [
       {"type":"text", "src":"/narrative/glass_house_hide_in_shadows"}
+    ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
     ],
     "category":"narrative",
     "type":"link"
@@ -1040,6 +1069,9 @@
     "media": [
       {"type":"text", "src":"/narrative/sticky_situation"}
     ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
+    ],
     "category":"narrative",
     "type":"link"
   },
@@ -1059,6 +1091,9 @@
     "media": [
       {"type":"text", "src":"/narrative/hello_dog"}
     ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
+    ],
     "category":"narrative",
     "type":"link"
   },
@@ -1077,6 +1112,9 @@
     "title":"Confined!",
     "media": [
       {"type":"text", "src":"/narrative/storage_room_confinement"}
+    ],
+    "labels":[
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
     ],
     "category":"narrative",
     "type":"link"
@@ -1133,7 +1171,8 @@
     ],
     "labels":[
       {"title":"", "qid":"1161", "next":""},
-      {"title":"", "qid":"1162", "next":""}
+      {"title":"", "qid":"1162", "next":""},
+      {"title":"Want to start over from the beginning?", "qid":"1163", "reset":"true"}
     ],
     "category":"narrative",
     "type":"link"
@@ -1141,7 +1180,7 @@
   "story_results":{
     "title":"Where would you like to start from?",
     "labels":[
-      {"title":"Start from the beginning.", "qid":"1163", "reset":"true"},
+      {"title":"Start over from the beginning.", "qid":"1163", "reset":"true"},
       {"title":"Start from the last story fork.", "qid":"1164"}
     ],
     "type":"summary",
