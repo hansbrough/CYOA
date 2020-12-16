@@ -1,0 +1,1151 @@
+{
+  "opening":{
+    "title":"Opening Scene",
+    "media": [
+      {"type":"text", "src":"/narrative/opening"}
+    ],
+    "labels":[
+      {"title":"Go and find the bar you need a drink.", "qid":"1000", "next":"bar_intro"},
+      {"title":"Make your way to the table of scones.", "qid":"1001", "next":"scone_1"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "bar_intro":{
+    "title":"The Bar",
+    "media": [
+      {"type":"text", "src":"/narrative/bar_intro"}
+    ],
+    "labels":[
+      {"title":"What I really need is a place to get away from this crowd but a large glass of white wine would be nice", "qid":"1002", "next":"bar_advice"},
+      {"title":"A cold beer would be nice about now thanks. Hear any interesting news lately?", "qid":"1003", "next":"bar_news"},
+      {"title":"Thanks - just a glass of sparkling water. What’s the latest?", "qid":"1004", "next":"bar_gossip"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "scone_1":{
+    "title":"The Scone Table",
+    "media": [
+      {"type":"text", "src":"/narrative/scone_1"}
+    ],
+    "labels":[
+      {"title":"It’s quite difficult to listen to Ms. Greene prattle on about her silly scones - time for a drink.", "qid":"1005", "next":"drunk_1"},
+      {"title":"Last year you only got one scone - 'This year will be different' - you think as three scones quickly make their way into your bag.", "qid":"1006", "next":"scone_2"},
+      {"title":"Hmm… a mystery club member? That doesn’t happen very often. I must stay and talk to her.", "qid":"1007", "next":"mystery_guest"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "scone_2":{
+    "title":"The Scone Table",
+    "media": [
+      {"type":"text", "src":"/narrative/scone_2"}
+    ],
+    "labels":[
+      {"title":"Sheepishly reach into your bag and put the extra scones back onto the table while apologizing.", "qid":"1008", "next":"scone_apology"},
+      {"title":"Shrug your shoulders and walk away with your best confused look (all the while exuding innocence).", "qid":"1009", "next":"scone_confused_walkaway"},
+      {"title":"Look Ms. Greene in the eyes, reach into your bag, pull out a scone and take a bite. Continue eating your scone without saying a word.", "qid":"1010", "next":"scone_confrontation"},
+      {"title":"Apologize and offer one of the scones from your bag to the mystery guest.", "qid":"1011", "next":"mystery_guest"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "scone_apology":{
+    "title":"Apology",
+    "media": [
+      {"type":"text", "src":"/narrative/scone_apology"}
+    ],
+    "labels":[
+      {"title":"The kitchen seems like the logical place to start. Maybe she stepped out the kitchen’s backdoor.", "qid":"1012", "next":"kitchen_aster_search_entry"},
+      {"title":"The trophy room seems like an easy location to check off first before heading to the kitchen. ", "qid":"1013", "next":"trophy_room_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "scone_confused_walkaway":{
+    "title":"Waking Away",
+    "media": [
+      {"type":"text", "src":"/narrative/scone_confused_walkaway"}
+    ],
+    "labels":[
+      {"title":"Ignore Ms Greene and head toward the bar for a much deserved drink", "qid":"1014", "next":"bar_intro"},
+      {"title":"Step outside for a breath of fresh air on the back patio.", "qid":"1015", "next":"back_patio_intro"},
+      {"title":"Return to Ms Greene’s table, pull a scone from your bag and eat it in defiant silence.", "qid":"1016", "next":"scone_confrontation"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "scone_confrontation":{
+    "title":"Confrontation",
+    "media": [
+      {"type":"text", "src":"/narrative/scone_confrontation"}
+    ],
+    "labels":[
+      {"title":"Reconsider your actions and walk away before the situation escalates.", "qid":"1017", "next":"scone_confrontation_reconsider"},
+      {"title":"Suggest to Ms Greene that this matter be settled in private and that you can recommend just the right place.", "qid":"1018", "next":"fantasic_wreckage"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "scone_confrontation_reconsider":{
+    "title":"Reconsidering Confrontation",
+    "media": [
+      {"type":"text", "src":"/narrative/scone_confrontation_reconsider"}
+    ],
+    "labels":[
+      {"title":"After standing in awkward silence for a few moments you excuse yourself and head to the bar.", "qid":"1019", "next":"bar_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mystery_guest":{
+    "title":"Mystery Guest",
+    "media": [
+      {"type":"text", "src":"/narrative/mystery_guest"}
+    ],
+    "labels":[
+      {"title":"You have not heard of a new “specimen” but you offer to introduce her to the club Treasurer, Mr. Watercress, who would certainly know about any expenditures made to acquire special plants.", "qid":"1020", "next":"mr_watercress_intro"},
+      {"title":"Not wanting to disappoint the guest you tell a small fib by saying 'Oh yes, the new specimen! By all accounts it’s beautiful.' ", "qid":"1021", "next":"specimen_fib"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "drunk_1":{
+    "title":"Drunk",
+    "media": [
+      {"type":"text", "src":"/narrative/drunk_1"}
+    ],
+    "labels":[
+      {"title":"Make an excuse he will understand - your were just on your way to get a drink.", "qid":"1022", "next":"bar_intro"},
+      {"title":"Attempt to talk to the drunk Dr. Loam.", "qid":"1023", "next":"drunk_4"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "drunk_4":{
+    "title":"Drunk",
+    "media": [
+      {"type":"text", "src":"/narrative/drunk_4"}
+    ],
+    "labels":[
+      {"title":"[TBD]", "qid":"1024"},
+      {"title":"[TBD]", "qid":"1025"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "bar_intro_2":{
+    "title":"The Bar Again",
+    "media": [
+      {"type":"text", "src":"/narrative/bar_intro_2"}
+    ],
+    "labels":[
+      {"title":"You reply “What I really need is a place to get away and process a weird experience I just had. A glass of white wine please”", "qid":"1026", "next":"bar_advice"},
+      {"title":"You reply “Beer please.” but add “Have you noticed an outdoorsy looking, tall woman who speaks in riddles?”", "qid":"1027", "next":"bar_advice_2"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "bar_news":{
+    "title":"News",
+    "media": [
+      {"type":"text", "src":"/narrative/bar_news"}
+    ],
+    "labels":[
+      {"title":"With nothing else in particular to do you decide to go to the kitchen and have a look for yourself.", "qid":"1028", "next":"kitchen_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "bar_gossip":{
+    "title":"Gossip",
+    "media": [
+      {"type":"text", "src":"/narrative/bar_gossip"}
+    ],
+    "labels":[
+      {"title":"“Hmm, you reply. Interesting.” Anything new happening around here?", "qid":"1029", "next":"bar_news"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "bar_advice":{
+    "title":"Bar Advice",
+    "media": [
+      {"type":"text", "src":"/narrative/bar_advice"}
+    ],
+    "labels":[
+      {"title":"You head to the Trophy Room", "qid":"1030", "next":"trophy_room_intro"},
+      {"title":"You walk out to the Back Patio.", "qid":"1031", "next":"back_patio_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "bar_advice_2":{
+    "title":"More Bar Advice",
+    "media": [
+      {"type":"text", "src":"/narrative/bar_advice_2"}
+    ],
+    "labels":[
+      {"title":"The potting shed is a long walk but worth if you can find her there.", "qid":"1032", "next":"potting_shed"},
+      {"title":"It’s a long shot but maybe the Trophy Room will have some clues.", "qid":"1033", "next":"trophy_room_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "back_patio_intro":{
+    "title":"The Garden Club Back Patio",
+    "media": [
+      {"type":"text", "src":"/narrative/back_patio_intro"}
+    ],
+    "labels":[
+      {"title":"You do not feel like getting involved in other people’s business so you turn and walk away from the noise to a quieter part of the garden.", "qid":"1034", "next":"garden_parterre"},
+      {"title":"Walk cautiously toward the voices.", "qid":"1035", "next":"back_patio_voices"},
+      {"title":"A closer look can’t hurt so you head for an adjacent path hoping to get a peek at the excitement through the bushes.", "qid":"1036", "next":"back_patio_adjacent_path"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "back_patio_voices":{
+    "title":"Angry Voices",
+    "media": [
+      {"type":"text", "src":"/narrative/back_patio_voices"}
+    ],
+    "labels":[
+      {"title":"Go to the parterre garden.", "qid":"1037", "next":"garden_parterre"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "garden_parterre":{
+    "title":"The Parterre Garden",
+    "media": [
+      {"type":"text", "src":"/narrative/garden_parterre"}
+    ],
+    "labels":[
+      {"title":"Walk through to the English garden.", "qid":"1038", "next":"english_garden_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "english_garden_intro":{
+    "title":"The English Garden",
+    "media": [
+      {"type":"text", "src":"/narrative/english_garden_intro"}
+    ],
+    "labels":[
+      {"title":"Go to the utility door.", "qid":"1039", "next":"potting_shed"},
+      {"title":"Go through to the orchard.", "qid":"1040", "next":"orchard"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "orchard":{
+    "title":"The Orchard",
+    "media": [
+      {"type":"text", "src":"/narrative/orchard"}
+    ],
+    "labels":[
+      {"title":"Follow the road toward the copse of trees", "qid":"1041", "next":"glass_house_intro"},
+      {"title":"Follow the road back toward the front of the main hall", "qid":"1042", "next":"main_hall_front_entrance"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "potting_shed":{
+    "title":"The Potting Shed",
+    "media": [
+      {"type":"text", "src":"/narrative/potting_shed"}
+    ],
+    "labels":[
+      {"title":"Thinking back on what they said, the reference to a ‘Glass House” might have been significant. You know that the Garden Club has a greenhouse; although you have not seen it yourself you have heard it is beyond the English Garden. You suppose there is no time like the present to start searching.", "qid":"1043", "next":"english_garden_2"},
+      {"title":"There are many trails you’ve left unexplored that start from the back patio. Perhaps your adventure awaits you there?", "qid":"1044", "next":"back_patio_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "english_garden_2":{
+    "title":"Back to The English Garden",
+    "media": [
+      {"type":"text", "src":"/narrative/english_garden_2"}
+    ],
+    "labels":[
+      {"title":"Go to the formal parterre garden.", "qid":"1045", "next":"garden_parterre"},
+      {"title":"Head through the arch to the orchard.", "qid":"1046", "next":"orchard"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "potting_shed_with_guest":{
+    "title":"Potting Shed",
+    "media": [
+      {"type":"text", "src":"/narrative/potting_shed_with_guest"}
+    ],
+    "labels":[
+      {"title":"The reference to a ‘Glass House” might have been significant. You know that the Garden Club has a greenhouse… in the past Rosemary had mentioned it lay beyond the English Garden", "qid":"1047", "next":"english_garden_2"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "back_patio_adjacent_path":{
+    "title":"An Adjacent Path",
+    "media": [
+      {"type":"text", "src":"/narrative/back_patio_adjacent_path"}
+    ],
+    "labels":[
+      {"title":"Walk toward the bridge and hopefully discover what all the shouting was about. ", "qid":"1048", "next":"cuttingsworth_path_meeting"},
+      {"title":"The path into the forest is definitely ‘terra incognita’ and worth exploring if for no other reason than you avoid having to make idle chit chat back at the club event.", "qid":"1049", "next":"terra_incognita_entrance"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cuttingsworth_path_meeting":{
+    "title":"An Unwelcome Meeting",
+    "media": [
+      {"type":"text", "src":"/narrative/cuttingsworth_path_meeting"}
+    ],
+    "labels":[
+      {"title":"Turn around and kill some time by exploring the path into the small forested area.", "qid":"1050", "next":"terra_incognita_entrance"},
+      {"title":"Continue over the bridge and see if you run into anyone who might have been part of the earlier argument.", "qid":"1051", "next":"catching_up"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "catching_up":{
+    "title":"Catch Up",
+    "media": [
+      {"type":"text", "src":"/narrative/catching_up"}
+    ],
+    "labels":[
+      {"title":"Finding yourself on the back patio once again you decide to continue your short walk in the parterre garden before heading back to the main hall yourself.", "qid":"1052", "next":"garden_parterre"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "trophy_room_intro":{
+    "title":"The Garden Club's 'Trophy Room'",
+    "media": [
+      {"type":"text", "src":"/narrative/trophy_room_intro"}
+    ],
+    "labels":[
+      {"title":"Take a closer look at the main portrait", "qid":"1053", "next":"hollyhock_portrait"},
+      {"title":"Browse the many trophies and awards", "qid":"1054", "next":"trophy_room_awards"},
+      {"title":"Browse the curious looking bric-a-brac.", "qid":"1055", "next":"trophy_room_curios"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "hollyhock_portrait":{
+    "title":"The Portrait",
+    "media": [
+      {"type":"text", "src":"/narrative/hollyhock_portrait"}
+    ],
+    "labels":[
+      {"title":"Browse the curious looking bric-a-brac.", "qid":"1056", "next":"trophy_room_curios"},
+      {"title":"Take a look at the awards and pictures", "qid":"1057", "next":"trophy_room_awards"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "trophy_room_curios":{
+    "title":"Trophy Room Curios",
+    "media": [
+      {"type":"text", "src":"/narrative/trophy_room_curios"}
+    ],
+    "labels":[
+      {"title":"Slip the key into your pocket and keep browsing the awards.", "qid":"1058", "next":"trophy_room_awards"},
+      {"title":"Put the key back, leave the room and head outside to the back patio.", "qid":"1059", "next":"back_patio_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "trophy_room_awards":{
+    "title":"Trophy Room Awards",
+    "media": [
+      {"type":"text", "src":"/narrative/trophy_room_awards"}
+    ],
+    "labels":[
+      {"title":"From your pocket you pull the “medusa key” and insert it.", "qid":"1060", "next":"into_the_passage"},
+      {"title":"Examine the main portrait", "qid":"1061", "next":"hollyhock_portrait"},
+      {"title":"Leave the room and go outside to the back patio", "qid":"1062", "next":"back_patio_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "into_the_passage":{
+    "title":"The Passage",
+    "media": [
+      {"type":"text", "src":"/narrative/into_the_passage"}
+    ],
+    "labels":[
+      {"title":"Walk to the right.", "qid":"1063", "next":"mine_road_right"},
+      {"title":"Walk to the left.", "qid":"1064", "next":"mine_road_left"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mine_road_left":{
+    "title":"Going Left at the Fork",
+    "media": [
+      {"type":"text", "src":"/narrative/mine_road_left"}
+    ],
+    "labels":[
+      {"title":"Take the vehicle ramp up toward the surface.", "qid":"1065", "next":"garage_in_woods"},
+      {"title":"Continue past the ramp into the alcove.", "qid":"1066", "next":"mine_road_alcove"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mine_road_alcove":{
+    "title":"A Dark Alcove",
+    "media": [
+      {"type":"text", "src":"/narrative/mine_road_alcove"}
+    ],
+    "labels":[
+      {"title":"Put aside your fears and see what’s on the other side of that door.", "qid":"1067", "next":"crazy_on_the_walls"},
+      {"title":"On second thought you really want to turn around and go up the ramp instead.", "qid":"1068", "next":"garage_in_woods"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mine_road_right":{
+    "title":"Going Right at the Fork",
+    "media": [
+      {"type":"text", "src":"/narrative/mine_road_right"}
+    ],
+    "labels":[
+      {"title":"Take the elevator", "qid":"1069", "next":"service_elevator_up"},
+      {"title":"Explore the plants.", "qid":"1070", "next":"grow_room_dock_entry"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "grow_room_dock_entry":{
+    "title":"The Grow Room",
+    "media": [
+      {"type":"text", "src":"/narrative/grow_room_dock_entry"}
+    ],
+    "labels":[
+      {"title":"With that you are manhandled out the wooden door.", "qid":"1071", "next":"storage_room_confinement"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "terra_incognita_entrance":{
+    "title":"Stepping into Unknown Land",
+    "media": [
+      {"type":"text", "src":"/narrative/terra_incognita_entrance"}
+    ],
+    "labels":[
+      {"title":"If only you could get some cuttings you could surely grow a few of these Medusa plants and be the envy of members like Ms Greene.", "qid":"1072", "next":"medusa_plant_cuttings"},
+      {"title":"The naturalist in you wants to collect some cuttings but it’s best not disturb native plants and besides you are curious now what other oddities lie ahead on the path.", "qid":"1073", "next":"cottage_intro"},
+      {"title":"There are so many of the plants - if you take a few specimens no one will notice.", "qid":"1074", "next":"medusa_plant_collecting"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "medusa_plant_collecting":{
+    "title":"I Just Need One or Two",
+    "media": [
+      {"type":"text", "src":"/narrative/medusa_plant_collecting"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "medusa_plant_cuttings":{
+    "title":"Taking a Few Cuttings",
+    "media": [
+      {"type":"text", "src":"/narrative/medusa_plant_cuttings"}
+    ],
+    "labels":[
+      {"title":"As dangerous as it seems these plants are fascinating and now you want to remove a few specimens for your personal collection.", "qid":"1075", "next":"medusa_plant_collecting"},
+      {"title":"Leave these plants alone and continue on down the path into the woods.", "qid":"1076", "next":"cottage_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "symbiosis":{
+    "title":"Symbiosis",
+    "media": [
+      {"type":"text", "src":"/narrative/symbiosis"}
+    ],
+    "labels":[
+      {"title":"After what you’ve seen it would be nice to have some company. “That sounds good, thanks!” you reply.", "qid":"1077", "next":"fine_afternoon_walk"},
+      {"title":"As much as you admire his knowledge of plants there is something about this man that you don’t trust. “Oh thanks but no I’m heading back now. In fact I might jog back.” Hopefully that doesn’t sound too implausible given you’re dressed for a party.", "qid":"1078", "next":"fake_jog"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "fine_afternoon_walk":{
+    "title":"Fine Afternoon For A Walk",
+    "media": [
+      {"type":"text", "src":"/narrative/fine_afternoon_walk"}
+    ],
+    "labels":[
+      {"title":"Slowly you realize you have been presented with a beautiful gift. To become the caretaker of a paradise - and more than that - the creator of paradise. “Yes!” you answer with every fiber in your being.", "qid":"1079", "next":"paradise_found"},
+      {"title":"This all sounds elaborately crazy - evil genius meets creepy uncle crazy. The bumps rising on your skin and hair standing on end give you a distinctly uneasy sensation. But here you are out in a crazy magical wood at dusk trying to figure out how to let down the bad guy easily. If ever there was a time for diplomacy… “Can I think about it?” you answer lamely staring at the ground.", "qid":"1080", "next":"crazy_uncle"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "paradise_found":{
+    "title":"Paradise Found",
+    "media": [
+      {"type":"text", "src":"/narrative/paradise_found"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "crazy_uncle":{
+    "title":"Part Crazy Uncle, Part Zealot",
+    "media": [
+      {"type":"text", "src":"/narrative/crazy_uncle"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "fake_jog":{
+    "title":"An Unexpected Run",
+    "media": [
+      {"type":"text", "src":"/narrative/fake_jog"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_intro":{
+    "title":"The Cottage",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_intro"}
+    ],
+    "labels":[
+      {"title":"Never one to be shy in such circumstances you walk to the cottages front gate for a closer inspection of what if anything is in the window. ", "qid":"1081", "next":"cottage_face"},
+      {"title":"You're almost certain you saw something move in the front window so you decide finding a path that leads to the side or back of the building is the best move.", "qid":"1082", "next":"cottage_side_sneak"},
+      {"title":"This is way too creepy for you. Time to keep walking and put some distance between yourself and this place.", "qid":"1083", "next":"pass_on_cottage"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_face":{
+    "title":"Face in the Window",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_face"}
+    ],
+    "labels":[
+      {"title":"This is getting creepier by the moment and you really don’t feel safe. Time to leave. You decide to skip this cottage and continue walking further down the path.", "qid":"1084", "next":"pass_on_cottage"},
+      {"title":"Given the circumstances you’re not brave enough to actually enter the cottage - so you call out “Hello?! Is anyone there?”", "qid":"1085", "next":"cottage_callout"},
+      {"title":"Perhaps without enough thought you impulsively walk into the cottage.", "qid":"1086", "next":"impulsive_cottage_entry"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "pass_on_cottage":{
+    "title":"Leaving the Cottage",
+    "media": [
+      {"type":"text", "src":"/narrative/pass_on_cottage"}
+    ],
+    "labels":[
+      {"title":"Check out the garage structure.", "qid":"1087", "next":"garage_exterior_intro"},
+      {"title":"Continue along the path into the woods.", "qid":"1088", "next":"symbiosis"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "garage_in_woods":{
+    "title":"A Workplace",
+    "media": [
+      {"type":"text", "src":"/narrative/garage_in_woods"}
+    ],
+    "labels":[
+      {"title":"Find the controls for the garage door and open it.", "qid":"1089", "next":"garage_main_exit"},
+      {"title":"Leave through the side door.", "qid":"1090", "next":"garage_side_door_exit"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "garage_side_door_exit":{
+    "title":"Exit out the Side Door",
+    "media": [
+      {"type":"text", "src":"/narrative/garage_side_door_exit"}
+    ],
+    "labels":[
+      {"title":"Turn to the right and walk toward the forested area.", "qid":"1091", "next":"symbiosis"},
+      {"title":"Turn to the left and hopefully make it back eventually to the Garden Club’s main hall.", "qid":"1092", "next":"cottage_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "garage_main_exit":{
+    "title":"Opening the Garage Door",
+    "media": [
+      {"type":"text", "src":"/narrative/garage_main_exit"}
+    ],
+    "labels":[
+      {"title":"You set off down the path with Mr. Watercress who seems in a chipper mood and very talkative.", "qid":"1093", "next":"fine_afternoon_walk"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "garage_exterior_intro":{
+    "title":"Garage in the Woods",
+    "media": [
+      {"type":"text", "src":"/narrative/garage_exterior_intro"}
+    ],
+    "labels":[
+      {"title":"You return to the path and continue walking.", "qid":"1094", "next":"symbiosis"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_callout":{
+    "title":"Hello?",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_callout"}
+    ],
+    "labels":[
+      {"title":"This was all very interesting but returning to the trail seems preferable to staying in this room for even one more minute.", "qid":"1095", "next":"pass_on_cottage"},
+      {"title":"Look more closely at the bookcase.", "qid":"1096", "next":"cottage_bookcase"},
+      {"title":"Inspect the backdoor and see where it leads.", "qid":"1097", "next":"cottage_back_exit"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "impulsive_cottage_entry":{
+    "title":"Cottage Entry",
+    "media": [
+      {"type":"text", "src":"/narrative/impulsive_cottage_entry"}
+    ],
+    "labels":[
+      {"title":"Leave the room and venture out into the luminescent glow.", "qid":"1098", "next":"into_luminescence"},
+      {"title":"Stay in the room and try to decipher the writing on the walls.", "qid":"1099", "next":"crazy_on_the_walls"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "into_luminescence":{
+    "title":"Into the Luminescence",
+    "media": [
+      {"type":"text", "src":"/narrative/into_luminescence"}
+    ],
+    "labels":[
+      {"title":"Follow the ramp in the hope that it reaches the surface.", "qid":"1100", "next":"garage_in_woods"},
+      {"title":"Continue walking further along the mineshaft.", "qid":"1101", "next":"mine_road_right"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "crazy_on_the_walls":{
+    "title":"Something on the Walls",
+    "media": [
+      {"type":"text", "src":"/narrative/crazy_on_the_walls"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_side_sneak":{
+    "title":"Oddly Refreshing",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_side_sneak"}
+    ],
+    "labels":[
+      {"title":"Sneak to the backdoor and somehow crack it open as quietly as possible for a look inside.", "qid":"1102", "next":"cottage_back_enter"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_back_exit":{
+    "title":"Out the Back",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_back_exit"}
+    ],
+    "labels":[
+      {"title":"Turn around and go back into the cottage. You’d like a close look at the bookcase. ", "qid":"1103", "next":"cottage_bookcase"},
+      {"title":"Continue into the backyard, out the gate and follow the path toward the front of the house.", "qid":"1104", "next":"cottage_back_yard_exit"},
+      {"title":"There’s nothing here to see here. Go back through the cottage and return to the main trail.", "qid":"1105", "next":"pass_on_cottage"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_back_enter":{
+    "title":"Cottage Back Entrance",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_back_enter"}
+    ],
+    "labels":[
+      {"title":"Take a closer look at the bookcase", "qid":"1106", "next":"cottage_bookcase"},
+      {"title":"Take a closer look inside the cottage.", "qid":"1107", "next":"cottage_closer_inspection"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_bookcase":{
+    "title":"The Cottage Bookcase",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_bookcase"}
+    ],
+    "labels":[
+      {"title":"Take a closer look at the furniture.", "qid":"1108", "next":"cottage_closer_inspection"},
+      {"title":"This is someone else’s property and suddenly you feel like a trespasser - best to leave now and head back to the main path.", "qid":"1109", "next":"pass_on_cottage"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_closer_inspection":{
+    "title":"A Closer Inspection",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_closer_inspection"}
+    ],
+    "labels":[
+      {"title":"Lower yourself into the vent feet first and try to shimmy down.", "qid":"1110", "next":"cottage_vent"},
+      {"title":"Make a mental note of the vent, return to the main path and ask Rosemary about this place once you find her.", "qid":"1111", "next":"pass_on_cottage"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_vent":{
+    "title":"The Vent",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_vent"}
+    ],
+    "labels":[
+      {"title":"Yell for help.", "qid":"1020", "next":"cottage_vent_yell"},
+      {"title":"Stay quiet and wait to see if anyone you can trust shows up eventually.", "qid":"1112", "next":"cottage_vent_stay_quiet"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_vent_yell":{
+    "title":"Yell for Help",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_vent_yell"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_vent_stay_quiet":{
+    "title":"Stay Quiet",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_vent_stay_quiet"}
+    ],
+    "labels":[
+      {"title":"Go down the rabbit hole beneath the bookcase.", "qid":"1113", "next":"down_the_rabbit_hole"},
+      {"title":"Leave this place. Go back to the main path and try to get back to the club and then home.", "qid":"1114", "next":"pass_on_cottage"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "down_the_rabbit_hole":{
+    "title":"Down the Rabbit Hole",
+    "media": [
+      {"type":"text", "src":"/narrative/down_the_rabbit_hole"}
+    ],
+    "labels":[
+      {"title":"You leave the candle, walk out of the room through the passageway and into the luminescence.", "qid":"1115", "next":"into_luminescence"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "cottage_back_yard_exit":{
+    "title":"Leaving the Backyard",
+    "media": [
+      {"type":"text", "src":"/narrative/cottage_back_yard_exit"}
+    ],
+    "labels":[
+      {"title":"Continue along the back path to the front of the house and the main path beyond. Maybe Rosemary will know more about this place but for now you want to get back to the Main Hall.", "qid":"1116", "next":"pass_on_cottage"},
+      {"title":"Changing your mind you jump over the gate and head toward the back door of the cottage. You’d like to inspect that bookcase.", "qid":"1117", "next":"cottage_bookcase"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mr_watercress_intro":{
+    "title":"Mr. Watercress",
+    "media": [
+      {"type":"text", "src":"/narrative/mr_watercress_intro"}
+    ],
+    "labels":[
+      {"title":"Puzzled by the cryptic comments, you leave to find the mystery guest and ask her what they mean.", "qid":"1118", "next":"lost_in_the_crowd"},
+      {"title":"You try to think of something to say but nothing comes. You could use a drink.", "qid":"1119", "next":"bar_advice_2"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mr_cuttingsworth_intro":{
+    "title":"Mr. Cuttingsworth",
+    "media": [
+      {"type":"text", "src":"/narrative/mr_cuttingsworth_intro"}
+    ],
+    "labels":[
+      {"title":"Puzzled by the cryptic comments, you leave to find the mystery guest and ask her what they mean.", "qid":"1120", "next":"lost_in_the_crowd"},
+      {"title":"You try to think of something to say but nothing comes. You could use a drink.", "qid":"1121", "next":"bar_advice_2"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "lost_in_the_crowd":{
+    "title":"Lost in the Crowd",
+    "media": [
+      {"type":"text", "src":"/narrative/lost_in_the_crowd"}
+    ],
+    "labels":[
+      {"title":"You find yourself on the Garden Club’s back patio.", "qid":"1122", "next":"back_patio_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "specimen_fib":{
+    "title":"Small Fibs",
+    "media": [
+      {"type":"text", "src":"/narrative/specimen_fib"}
+    ],
+    "labels":[
+      {"title":"You should be able to “wing it” by introducing her to Mr. Cuttingsworth the Club’s plant propagator. He’s bound to know something.", "qid":"1123", "next":"mr_cuttingsworth_intro"},
+      {"title":"Sometimes life calls your bluff and the only option is to double down. So you answer “Absolutely, lets go have a look. Just follow me to the potting shed.” Hopefully you’ll think of something along the way. The mystery guest smiles and follows you out of the Main Hall.", "qid":"1124", "next":"potting_shed_with_guest"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "fantasic_wreckage":{
+    "title":"Fantastic Wreckage",
+    "media": [
+      {"type":"text", "src":"/narrative/fantasic_wreckage"}
+    ],
+    "labels":[
+      {"title":"Want to Try again?", "qid":"0000"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_intro":{
+    "title":"The Glass House",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_intro"}
+    ],
+    "labels":[
+      {"title":"Technically you are not “the public”. You are a fully paid club member who should have access to all of the Garden Hall estate. You pass through the gate a bit indignant at the thought of the sign.", "qid":"1125", "next":"glass_house_main_entry"},
+      {"title":"The sign gives you pause - yet you are a club member. With a twinge of guilt you jump the fence in a secluded spot hoping no one is around to notice.", "qid":"1126", "next":"glass_house_side_entry"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_side_entry":{
+    "title":"Glass House Side Entry",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_side_entry"}
+    ],
+    "labels":[
+      {"title":"Nervous now about your personal safety, you look through the tools for a possible weapon.", "qid":"1127", "next":"glass_house_tools"},
+      {"title":"Quietly open the side door and sneak in for a closer look.", "qid":"1128", "next":"glass_house_quiet_side_entry"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_quiet_side_entry":{
+    "title":"Quiet Glass House Side Entry",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_quiet_side_entry"}
+    ],
+    "labels":[
+      {"title":"Give up all the sneaking around and walk up to Mr. Cuttingsworth", "qid":"1129", "next":"glass_house_escort_out"},
+      {"title":"Walk toward the music.", "qid":"1130", "next":"hybridization_room"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_escort_out":{
+    "title":"Escorted Out",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_escort_out"}
+    ],
+    "labels":[
+      {"title":"A firm hand clasps you above your elbow, you are escorted to one of the golf cart-like utility vehicles and driven to the back of the Main Hall.", "qid":"1131", "next":"escort_out_arrival_back"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "escort_out_arrival_back":{
+    "title":"Equal Parts Foolish and Indignant",
+    "media": [
+      {"type":"text", "src":"/narrative/escort_out_arrival_back"}
+    ],
+    "labels":[
+      {"title":"Spill the details about what just happened at the Glass House", "qid":"1132", "next":"bean_spill"},
+      {"title":"Head up the backstairs to the kitchen.", "qid":"1133", "next":"kitchen_backstairs_entry"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "bean_spill":{
+    "title":"Tell All",
+    "media": [
+      {"type":"text", "src":"/narrative/bean_spill"}
+    ],
+    "labels":[
+      {"title":"He seems harmless. A short hike and you can confirm or deny your suspicions about this place. “Sure.”  you respond.", "qid":"1134", "next":"15_minute_hike"},
+      {"title":"Crazy plus Crazy doesn’t equal normal. No way. Time to head up the stairs to the kitchen. “No thanks. I think I hear someone calling my name. gotta run. bye.”", "qid":"1135", "next":"kitchen_backstairs_entry"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "kitchen_backstairs_entry":{
+    "title":"Kitchen Backstairs",
+    "media": [
+      {"type":"text", "src":"/narrative/kitchen_backstairs_entry"}
+    ],
+    "labels":[
+      {"title":"It’s time to take a closer look at the trophy room.", "qid":"1136", "next":"trophy_room_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "kitchen_intro":{
+    "title":"The Kitchen",
+    "media": [
+      {"type":"text", "src":"/narrative/kitchen_intro"}
+    ],
+    "labels":[
+      {"title":"At a loss for what to do next but not ready to head back into the crowd you decide to look around in the trophy room.", "qid":"1137", "next":"trophy_room_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "kitchen_backstairs_exit":{
+    "title":"Kitchen Backstairs Exit",
+    "media": [
+      {"type":"text", "src":"/narrative/kitchen_backstairs_exit"}
+    ],
+    "labels":[
+      {"title":"Go back inside and look in the trophy room.", "qid":"1138", "next":"trophy_room_intro"},
+      {"title":"Continue on to the back patio.", "qid":"1139", "next":"back_patio_intro"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "kitchen_aster_search_entry":{
+    "title":"Looking for Mrs Aster",
+    "media": [
+      {"type":"text", "src":"/narrative/kitchen_aster_search_entry"}
+    ],
+    "labels":[
+      {"title":"She’s not in the kitchen so best to check the trophy room next.", "qid":"1140", "next":"trophy_room_intro"},
+      {"title":"Maybe she went out the kitchen’s back door for some reason?", "qid":"1141", "next":"kitchen_backstairs_exit"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "15_minute_hike":{
+    "title":"Just Give Me 15 Minutes",
+    "media": [
+      {"type":"text", "src":"/narrative/15_minute_hike"}
+    ],
+    "labels":[
+      {"title":"You reach out to stop the barkeep and say “It’s Watercress. Let’s walk up together, and pretend we didn’t see anything. Then we can deal with him.”", "qid":"1142", "next":"comeuppance"},
+      {"title":"The bartender seems more than capable of handling the villainous Watercress. You watch as he runs up the trail.", "qid":"1143", "next":"what_a_shame"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "comeuppance":{
+    "title":"Comeuppance",
+    "media": [
+      {"type":"text", "src":"/narrative/comeuppance"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "what_a_shame":{
+    "title":"What a Shame",
+    "media": [
+      {"type":"text", "src":"/narrative/what_a_shame"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_main_entry":{
+    "title":"Glass House Main Entry",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_main_entry"}
+    ],
+    "labels":[
+      {"title":"Overcome with a sudden sense of unease you quickly slip out the front doors, run around side and back of the building looking for a temporary hiding spot.", "qid":"1144", "next":"glass_house_back_entrance"},
+      {"title":"Realizing you may not be welcome in the greenhouse you wait for the approaching member and prepare what will mostly likely sound like an implausible excuse.", "qid":"1145", "next":"glass_house_excuse"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_tools":{
+    "title":"Tools",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_tools"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_back_entrance":{
+    "title":"Glass House Back Entrance",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_back_entrance"}
+    ],
+    "labels":[
+      {"title":"Hide in the shadows and hope for the best!", "qid":"1146", "next":"glass_house_hide_in_shadows"},
+      {"title":"Go through the door and try to lock it behind you.", "qid":"1147", "next":"glass_house_basement_door"},
+      {"title":"Charge back up the stairs and try to make a run past whoever was outside.", "qid":"1148", "next":"glass_house_cellar_escape"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_hide_in_shadows":{
+    "title":"Hiding in the Shadows",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_hide_in_shadows"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_basement_door":{
+    "title":"The Glass House Basement Door",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_basement_door"}
+    ],
+    "labels":[
+      {"title":"Head through the plastic strips to whatever lies beyond.", "qid":"1149", "next":"loading_dock_entry"},
+      {"title":"Take the elevator up to the glasshouse.", "qid":"1150", "next":"service_elevator_up"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "loading_dock_entry":{
+    "title":"Loading Dock Entry",
+    "media": [
+      {"type":"text", "src":"/narrative/loading_dock_entry"}
+    ],
+    "labels":[
+      {"title":"You begin walking into the luminescent fueled twilight.", "qid":"1151", "next":"mine_road_left"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "service_elevator_up":{
+    "title":"Going Up",
+    "media": [
+      {"type":"text", "src":"/narrative/service_elevator_up"}
+    ],
+    "labels":[
+      {"title":"Quietly and carefully walk toward the sound of the music.", "qid":"1152", "next":"hybridization_room"},
+      {"title":"Walk away from the music and look for the nearest way out of the glass house.", "qid":"1153", "next":"sticky_situation"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "sticky_situation":{
+    "title":"A Sticky Situation",
+    "media": [
+      {"type":"text", "src":"/narrative/sticky_situation"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "hybridization_room":{
+    "title":"Hybridization",
+    "media": [
+      {"type":"text", "src":"/narrative/hybridization_room"}
+    ],
+    "labels":[
+      {"title":"The dog is so cute. You instinctively walk over to say hello.", "qid":"1154", "next":"hello_dog"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "hello_dog":{
+    "title":"And Your Little Dog Too",
+    "media": [
+      {"type":"text", "src":"/narrative/hello_dog"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_cellar_escape":{
+    "title":"Escape!",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_cellar_escape"}
+    ],
+    "labels":[
+      {"title":"With that pronouncement you are manhandled back down the steps.", "qid":"1155", "next":"storage_room_confinement"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "storage_room_confinement":{
+    "title":"Confined!",
+    "media": [
+      {"type":"text", "src":"/narrative/storage_room_confinement"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_excuse":{
+    "title":"Thinking of an Excuse",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_excuse"}
+    ],
+    "labels":[
+      {"title":"Hello Mr. Cuttingsworth! I seem to have gotten lost.", "qid":"1156", "next":"glass_house_help_out"},
+      {"title":"I was supposed to meet Rosemary here. Have you seen her?", "qid":"1157", "next":"where_is_rosemary"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "where_is_rosemary":{
+    "title":"Suspicious",
+    "media": [
+      {"type":"text", "src":"/narrative/where_is_rosemary"}
+    ],
+    "labels":[
+      {"title":"Brusquely walk past the bumbling Mr. Cuttingsworth to meet his helper and take a look at what’s so important that it must be done during the yearly fundraiser.", "qid":"1158", "next":"glass_house_brusque_walk"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_brusque_walk":{
+    "title":"Brusque Walk",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_brusque_walk"}
+    ],
+    "labels":[
+      {"title":"You object and struggle but it is no use.", "qid":"1159", "next":"storage_room_confinement"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "glass_house_help_out":{
+    "title":"Helping You Out",
+    "media": [
+      {"type":"text", "src":"/narrative/glass_house_help_out"}
+    ],
+    "labels":[
+      {"title":"You are marched to a nearby electric utility vehicle and driven back to the Main Hall.", "qid":"1160", "next":"escort_out_arrival_back"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "main_hall_front_entrance":{
+    "title":"Garden Club Main Entrance",
+    "media": [
+      {"type":"text", "src":"/narrative/main_hall_front_entrance"}
+    ],
+    "labels":[
+      {"title":"", "qid":"1161", "next":""},
+      {"title":"", "qid":"1162", "next":""}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "story_results":{
+    "title":"Where would you like to start from?",
+    "labels":[
+      {"title":"Start from the beginning.", "qid":"1163", "reset":"true"},
+      {"title":"Start from the last story fork.", "qid":"1164"}
+    ],
+    "type":"summary",
+    "qid":"10000"
+  }
+
+}

@@ -1,0 +1,18 @@
+{
+  "meta":{
+    "graph_id":"1"
+  },
+  "module_story":{
+    "title":"Garden Hall",
+    "questions": [
+      {"id":"opening"}
+    ],
+    "next":"module_final"
+  },
+  "module_final":{
+    "title":"Complete",
+    "questions": [
+      { "id":"story_results"}
+    ]
+  }
+}
