@@ -2,7 +2,8 @@
   "opening":{
     "title":"Opening Scene",
     "media": [
-      {"type":"text", "src":"/narrative/opening"}
+      {"type":"text", "src":"/narrative/opening"},
+      {"type":"image", "src":"/images/opening.webp"}
     ],
     "labels":[
       {"title":"Go and find the bar you need a drink.", "qid":"1000", "next":"bar_intro"},
@@ -193,19 +194,19 @@
     "category":"narrative",
     "type":"link"
   },
-  "back_patio_intro":{
-    "title":"The Garden Club Back Patio",
-    "media": [
-      {"type":"text", "src":"/narrative/back_patio_intro"}
-    ],
-    "labels":[
-      {"title":"You do not feel like getting involved in other people’s business so you turn and walk away from the noise to a quieter part of the garden.", "qid":"1034", "next":"garden_parterre"},
-      {"title":"Walk cautiously toward the voices.", "qid":"1035", "next":"back_patio_voices"},
-      {"title":"A closer look can’t hurt so you head for an adjacent path hoping to get a peek at the excitement through the bushes.", "qid":"1036", "next":"back_patio_adjacent_path"}
-    ],
-    "category":"narrative",
-    "type":"link"
-  },
+    "back_patio_intro":{
+      "title":"The Garden Club Back Patio",
+      "media": [
+        {"type":"text", "src":"/narrative/back_patio_intro"}
+      ],
+      "labels":[
+        {"title":"You do not feel like getting involved in other people’s business so you turn and walk away from the noise to a quieter part of the garden.", "qid":"1034", "next":"garden_parterre"},
+        {"title":"Walk cautiously toward the voices.", "qid":"1035", "next":"back_patio_voices"},
+        {"title":"A closer look can’t hurt so you head for an adjacent path hoping to get a peek at the excitement through the bushes.", "qid":"1036", "next":"back_patio_adjacent_path"}
+      ],
+      "category":"narrative",
+      "type":"link"
+    },
   "back_patio_voices":{
     "title":"Angry Voices",
     "media": [
@@ -325,7 +326,8 @@
   "trophy_room_intro":{
     "title":"The Garden Club's 'Trophy Room'",
     "media": [
-      {"type":"text", "src":"/narrative/trophy_room_intro"}
+      {"type":"text", "src":"/narrative/trophy_room_intro"},
+      {"type":"image", "src":"/images/trophy_room_intro.webp"}
     ],
     "labels":[
       {"title":"Take a closer look at the main portrait", "qid":"1053", "next":"hollyhock_portrait"},
@@ -422,7 +424,8 @@
   "grow_room_dock_entry":{
     "title":"The Grow Room",
     "media": [
-      {"type":"text", "src":"/narrative/grow_room_dock_entry"}
+      {"type":"text", "src":"/narrative/grow_room_dock_entry"},
+      {"type":"image", "src":"/images/grow_room_dock_entry.webp"}
     ],
     "labels":[
       {"title":"With that you are manhandled out the wooden door.", "qid":"1071", "next":"storage_room_confinement"}
@@ -526,7 +529,8 @@
   "cottage_intro":{
     "title":"The Cottage",
     "media": [
-      {"type":"text", "src":"/narrative/cottage_intro"}
+      {"type":"text", "src":"/narrative/cottage_intro"},
+      {"type":"image", "src":"/images/cottage_intro.webp"}
     ],
     "labels":[
       {"title":"Never one to be shy in such circumstances you walk to the cottages front gate for a closer inspection of what if anything is in the window. ", "qid":"1081", "next":"cottage_face"},
@@ -635,7 +639,8 @@
   "into_luminescence":{
     "title":"Into the Luminescence",
     "media": [
-      {"type":"text", "src":"/narrative/into_luminescence"}
+      {"type":"text", "src":"/narrative/into_luminescence"},
+      {"type":"image", "src":"/images/into_luminescence.webp"}
     ],
     "labels":[
       {"title":"Follow the ramp in the hope that it reaches the surface.", "qid":"1100", "next":"garage_in_woods"},
@@ -916,10 +921,24 @@
   "kitchen_intro":{
     "title":"The Kitchen",
     "media": [
-      {"type":"text", "src":"/narrative/kitchen_intro"}
+      {"type":"text", "src":"/narrative/kitchen_intro"},
+      {"type":"image", "src":"/images/kitchen_intro.webp"}
     ],
     "labels":[
-      {"title":"At a loss for what to do next but not ready to head back into the crowd you decide to look around in the trophy room.", "qid":"1137", "next":"trophy_room_intro"}
+      {"title":"At a loss for what to do next but not ready to head back into the crowd you decide to look around in the trophy room.", "qid":"1137", "next":"trophy_room_intro"},
+      {"title":"Find & ask Mrs. Aster about Rosemary.", "qid":"1200", "next":"ask_mrs_aster"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "ask_mrs_aster":{
+    "title":"Ask Mrs Aster about Rosemary",
+    "media": [
+      {"type":"text", "src":"/narrative/ask_mrs_aster"}
+    ],
+    "labels":[
+      {"title":"Maybe Rosemary went outside for a breath of fresh air on the back patio.", "qid":"1201", "next":"back_patio_intro"},
+      {"title":"Maybe Mr. Watercress knows where your friend is hiding.", "qid":"1202", "next":"mr_watercress_intro"}
     ],
     "category":"narrative",
     "type":"link"

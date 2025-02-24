@@ -105,10 +105,10 @@ const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) 
           <p><em>Module ID:</em> "{currentQuestion.module}"</p>
           <p><em>Graph Position:</em> {currentQuestion.position.current} of {currentQuestion.position.total} nodes</p>
           <hr></hr>
-          <h4>{currentQuestion.title}</h4>
+          <h2>{currentQuestion.title}</h2>
           {currentQuestion.media &&
             currentQuestion.media.map(item => item.type==='image' &&
-              <img key={currentQuestion.id} src={item.src} alt="" />
+              <img key={currentQuestion.id} src={item.src} alt="" style={{width:"100%"}} />
             )
           }
           {currentNarrative && (
