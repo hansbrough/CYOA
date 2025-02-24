@@ -213,7 +213,21 @@
       {"type":"text", "src":"/narrative/back_patio_voices"}
     ],
     "labels":[
+      {"title":"Try to talk to Mrs. Aster.", "qid":"1203", "next":"mrs_aster_warning"},
       {"title":"Go to the parterre garden.", "qid":"1037", "next":"garden_parterre"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mrs_aster_warning":{
+    "title":"A warning from Mrs. Aster.",
+    "media": [
+      {"type":"text", "src":"/narrative/mrs_aster_warning"}
+    ],
+    "labels":[
+      {"title":"Investigate the Greenhouse", "qid":"1204", "next":"glass_house_intro"},
+      {"title":"Take a Walk to Process the Information", "qid":"1205", "next":"garden_parterre"},
+      {"title":"Look for Historical Clues in the Trophy Room", "qid":"1206", "next":"trophy_room_intro"},
     ],
     "category":"narrative",
     "type":"link"
@@ -327,7 +341,7 @@
     "title":"The Garden Club's 'Trophy Room'",
     "media": [
       {"type":"text", "src":"/narrative/trophy_room_intro"},
-      {"type":"image", "src":"/images/trophy_room_intro.webp"}
+      {"type":"image", "src":"/images/trophy_room_intro.png"}
     ],
     "labels":[
       {"title":"Take a closer look at the main portrait", "qid":"1053", "next":"hollyhock_portrait"},
@@ -436,7 +450,8 @@
   "terra_incognita_entrance":{
     "title":"Stepping into Unknown Land",
     "media": [
-      {"type":"text", "src":"/narrative/terra_incognita_entrance"}
+      {"type":"text", "src":"/narrative/terra_incognita_entrance"},
+      {"type":"image", "src":"/images/terra_incognita_entrance.png"}
     ],
     "labels":[
       {"title":"If only you could get some cuttings you could surely grow a few of these Medusa plants and be the envy of members like Ms Greene.", "qid":"1072", "next":"medusa_plant_cuttings"},
