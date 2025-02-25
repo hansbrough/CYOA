@@ -227,7 +227,7 @@
     "labels":[
       {"title":"Investigate the Greenhouse", "qid":"1204", "next":"glass_house_intro"},
       {"title":"Take a Walk to Process the Information", "qid":"1205", "next":"garden_parterre"},
-      {"title":"Look for Historical Clues in the Trophy Room", "qid":"1206", "next":"trophy_room_intro"},
+      {"title":"Look for Historical Clues in the Trophy Room", "qid":"1206", "next":"trophy_room_intro"}
     ],
     "category":"narrative",
     "type":"link"
@@ -235,10 +235,12 @@
   "garden_parterre":{
     "title":"The Parterre Garden",
     "media": [
-      {"type":"text", "src":"/narrative/garden_parterre"}
+      {"type":"text", "src":"/narrative/garden_parterre"},
+      {"type":"image", "src":"/images/garden_parterre.webp"}
     ],
     "labels":[
-      {"title":"Walk through to the English garden.", "qid":"1038", "next":"english_garden_intro"}
+      {"title":"Walk through to the English garden.", "qid":"1038", "next":"english_garden_intro"},
+      {"title":"Investigate the Greenhouse", "qid":"1207", "next":"glass_house_intro"}
     ],
     "category":"narrative",
     "type":"link"
@@ -246,11 +248,26 @@
   "english_garden_intro":{
     "title":"The English Garden",
     "media": [
-      {"type":"text", "src":"/narrative/english_garden_intro"}
+      {"type":"text", "src":"/narrative/english_garden_intro"},
+      {"type":"image", "src":"/images/english_garden_intro.webp"}
     ],
     "labels":[
+      {"title":"Take a closer look the latern-like plant.", "qid":"1208", "next":"lantern_tree_sapling"},
       {"title":"Go to the utility door.", "qid":"1039", "next":"potting_shed"},
       {"title":"Go through to the orchard.", "qid":"1040", "next":"orchard"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "lantern_tree_sapling":{
+    "title":"A Very Un-English Plant",
+    "media": [
+      {"type":"text", "src":"/narrative/lantern_tree_sapling"},
+      {"type":"image", "src":"/images/lantern_tree_sapling.webp"}
+    ],
+    "labels":[
+      {"title":"Go to the utility door.", "qid":"1209", "next":"potting_shed"},
+      {"title":"Go through to the orchard.", "qid":"1210", "next":"orchard"}
     ],
     "category":"narrative",
     "type":"link"
@@ -258,11 +275,13 @@
   "orchard":{
     "title":"The Orchard",
     "media": [
-      {"type":"text", "src":"/narrative/orchard"}
+      {"type":"text", "src":"/narrative/orchard"},
+      {"type":"image", "src":"/images/orchard.webp"}
     ],
     "labels":[
-      {"title":"Follow the road toward the copse of trees", "qid":"1041", "next":"glass_house_intro"},
-      {"title":"Follow the road back toward the front of the main hall", "qid":"1042", "next":"main_hall_front_entrance"}
+      {"title":"Look for information about the shipping label in the potting shed.", "qid":"1211", "next":"potting_shed"},
+      {"title":"Follow the utility road toward the greenhouse.", "qid":"1041", "next":"glass_house_intro"},
+      {"title":"Follow the road back toward the main hall", "qid":"1042", "next":"main_hall_front_entrance"}
     ],
     "category":"narrative",
     "type":"link"
