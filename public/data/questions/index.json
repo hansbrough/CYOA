@@ -15,7 +15,8 @@
   "bar_intro":{
     "title":"The Bar",
     "media": [
-      {"type":"text", "src":"/narrative/bar_intro"}
+      {"type":"text", "src":"/narrative/bar_intro"},
+      {"type":"image", "src":"/images/bar_intro.webp"}
     ],
     "labels":[
       {"title":"What I really need is a place to get away from this crowd but a large glass of white wine would be nice", "qid":"1002", "next":"bar_advice"},
@@ -33,7 +34,7 @@
     "labels":[
       {"title":"It’s quite difficult to listen to Ms. Greene prattle on about her silly scones - time for a drink.", "qid":"1005", "next":"drunk_1"},
       {"title":"Last year you only got one scone - 'This year will be different' - you think as three scones quickly make their way into your bag.", "qid":"1006", "next":"scone_2"},
-      {"title":"Hmm… a mystery club member? That doesn’t happen very often. I must stay and talk to her.", "qid":"1007", "next":"mystery_guest"}
+      {"title":"You rarely see unfamiliar faces at these events, and curiosity gets the better of you. You decide to stay and talk to her.", "qid":"1007", "next":"mystery_guest"}
     ],
     "category":"narrative",
     "type":"link"
@@ -44,10 +45,10 @@
       {"type":"text", "src":"/narrative/scone_2"}
     ],
     "labels":[
-      {"title":"Sheepishly reach into your bag and put the extra scones back onto the table while apologizing.", "qid":"1008", "next":"scone_apology"},
-      {"title":"Shrug your shoulders and walk away with your best confused look (all the while exuding innocence).", "qid":"1009", "next":"scone_confused_walkaway"},
-      {"title":"Look Ms. Greene in the eyes, reach into your bag, pull out a scone and take a bite. Continue eating your scone without saying a word.", "qid":"1010", "next":"scone_confrontation"},
-      {"title":"Apologize and offer one of the scones from your bag to the mystery guest.", "qid":"1011", "next":"mystery_guest"}
+      {"title":"Reluctantly place the scones back onto the table, offering an awkward apology.", "qid":"1008", "next":"scone_apology"},
+      {"title":"Feign confusion, offering Ms. Greene your most innocent look before casually slipping away toward a quieter part of the room.", "qid":"1009", "next":"scone_confused_walkaway"},
+      {"title":"Hold Ms. Greene’s gaze, reach into your bag, and deliberately take a slow bite of a scone—letting silence do the talking.", "qid":"1010", "next":"scone_confrontation"},
+      {"title":"With a disarming smile, offer one of the scones to the mystery guest, watching for Ms. Greene’s reaction.", "qid":"1011", "next":"mystery_guest"}
     ],
     "category":"narrative",
     "type":"link"
@@ -83,8 +84,8 @@
       {"type":"text", "src":"/narrative/scone_confrontation"}
     ],
     "labels":[
-      {"title":"Reconsider your actions and walk away before the situation escalates.", "qid":"1017", "next":"scone_confrontation_reconsider"},
-      {"title":"Suggest to Ms Greene that this matter be settled in private and that you can recommend just the right place.", "qid":"1018", "next":"fantasic_wreckage"}
+      {"title":"Realizing you’re making a scene, you let out a deep breath, mutter something half-apologetic, and turn to leave before things escalate.", "qid":"1017", "next":"scone_confrontation_reconsider"},
+      {"title":"You give Ms. Greene a cool, challenging smile. If she really has a problem, maybe the two of you should settle this somewhere... less public.", "qid":"1018", "next":"fantasic_wreckage"}
     ],
     "category":"narrative",
     "type":"link"
@@ -95,7 +96,18 @@
       {"type":"text", "src":"/narrative/scone_confrontation_reconsider"}
     ],
     "labels":[
-      {"title":"After standing in awkward silence for a few moments you excuse yourself and head to the bar.", "qid":"1019", "next":"bar_intro"}
+      {"title":"Without giving yourself another second to dwell on the thought, you follow her into the kitchen.", "qid":"1019", "next":"mrs_aster_kitchen_talk"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mrs_aster_kitchen_talk":{
+    "title":"Mrs. Aster in the Kitchen",
+    "media": [
+      {"type":"text", "src":"/narrative/mrs_aster_kitchen_talk"}
+    ],
+    "labels":[
+      {"title":"Feeling unsettled, you decide to take another look at Mr. Hollyhock’s portrait in the Trophy Room.", "qid":"1213", "next":"trophy_room_intro"}
     ],
     "category":"narrative",
     "type":"link"
@@ -130,8 +142,9 @@
       {"type":"text", "src":"/narrative/drunk_4"}
     ],
     "labels":[
-      {"title":"[TBD]", "qid":"1024"},
-      {"title":"[TBD]", "qid":"1025"}
+      {"title":"Shaking off Loam’s cryptic words, you continue to the bar. You could use that drink now.", "qid":"1024", "next":"bar_intro"},
+      {"title":"Loam’s words stick with you. You suddenly feel like you need some air. Maybe stepping outside will help clear your head.", "qid":"1025", "next":"back_patio_intro"},
+      {"title":"You can’t shake what Loam just said. If anyone would have records of the Club’s past—or its secrets—it would be in the Trophy Room.", "qid":"1212", "next":"trophy_room_intro"},
     ],
     "category":"narrative",
     "type":"link"
