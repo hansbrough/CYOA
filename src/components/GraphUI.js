@@ -6,7 +6,7 @@ import DecisionTree from 'question-tree-core';
 //import DecisionTree from "../utils/DecisionTree";// or debug w/the unpackaged files
 import ReactMarkdown from 'react-markdown';
 
-const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) => {
+const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...',intro_img_src}) => {
   const [decisionTreeInitializing, setDecisionTreeInitializing] = useState();
   const [decisionTreeInitialized, setDecisionTreeInitialized] = useState();
   const [currentQuestion, setCurrentQuestion] = useState();
@@ -97,7 +97,10 @@ const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) 
   return (
     <div className="graph-ui">
       {!currentQuestion &&
-        <div style={{padding:".5rem"}}>{intro_text}</div>
+        <div>
+          <img key="introduction_image" src={intro_img_src} alt="bookcover" style={{width:"100%"}} />
+          <h4 style={{padding:".5rem"}}>{intro_text}</h4>
+        </div>
       }
       {currentQuestion &&
         <div style={{padding:".5rem"}}>
