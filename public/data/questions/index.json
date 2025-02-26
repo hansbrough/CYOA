@@ -120,8 +120,7 @@
       {"type":"text", "src":"/narrative/main_hall_mingling"}
     ],
     "labels":[
-      {"title":"Check out the Trophy Room. Might as well browse the club’s history.", "qid":"1215", "next":"trophy_room_intro"},
-      {"title":"You could keep mingling, or you could do something infinitely more interesting—like see where that hallway leads.", "qid":"1216", "next":"locked_office"}
+      {"title":"You could keep mingling, or you could do something infinitely more interesting—like see where that hallway leads.", "qid":"1216", "next":"locked_office"},
       {"title":"This is all a bit much. A quick breath of fresh air sounds nice.", "qid":"1222", "next":"back_patio_intro"},
       {"title":"Mr. Shovelton sees everything. Maybe he knows something useful.", "qid":"1223", "next":"shovelton_intro"},
       {"title":"Someone stands apart from the crowd, watching. You take a closer look.", "qid":"1226", "next":"mr_cuttingsworth_observed"}
@@ -147,7 +146,7 @@
       {"type":"text", "src":"/narrative/shovelton_intro"}
     ],
     "labels":[
-      {"title":"Return to mingling in the Main Hall.", "qid":"1223", "next":"main_hall_mingling"},
+      {"title":"Return to mingling in the Main Hall.", "qid":"1228", "next":"main_hall_mingling"},
       {"title":"Step outside for fresh air.", "qid":"1224", "next":"back_patio_intro"}
     ],
     "category":"narrative",
@@ -185,7 +184,7 @@
     "labels":[
       {"title":"Shaking off Loam’s cryptic words, you continue to the bar. You could use that drink now.", "qid":"1024", "next":"bar_intro"},
       {"title":"Loam’s words stick with you. You suddenly feel like you need some air. Maybe stepping outside will help clear your head.", "qid":"1025", "next":"back_patio_intro"},
-      {"title":"You can’t shake what Loam just said. If anyone would have records of the Club’s past—or its secrets—it would be in the Trophy Room.", "qid":"1212", "next":"trophy_room_intro"},
+      {"title":"You can’t shake what Loam just said. If anyone would have records of the Club’s past—or its secrets—it would be in the Trophy Room.", "qid":"1212", "next":"trophy_room_intro"}
     ],
     "category":"narrative",
     "type":"link"
@@ -880,9 +879,9 @@
     "type":"link"
   },
   "mr_cuttingsworth_intro":{
-    "title":"Mr. Cuttingsworth on the Edges",
+    "title":"Mr. Cuttingsworth",
     "media": [
-      {"type":"text", "src":"/narrative/mr_cuttingsworth_observed"}
+      {"type":"text", "src":"/narrative/mr_cuttingsworth_intro"}
     ],
     "labels":[
       {"title":"Puzzled by the cryptic comments, you leave to find the mystery guest and ask her what they mean.", "qid":"1120", "next":"lost_in_the_crowd"},
@@ -892,9 +891,9 @@
     "type":"link"
   },
   "mr_cuttingsworth_observed":{
-    "title":"Mr. Cuttingsworth",
+    "title":"Mr. Cuttingsworth on the Edges",
     "media": [
-      {"type":"text", "src":"/narrative/mr_cuttingsworth_intro"}
+      {"type":"text", "src":"/narrative/mr_cuttingsworth_observed"}
     ],
     "labels":[
       {"title":"You leave him to his strange musings and rejoin the crowd.", "qid":"1227", "next":"main_hall_mingling"}
