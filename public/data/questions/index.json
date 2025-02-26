@@ -7,7 +7,8 @@
     ],
     "labels":[
       {"title":"Go and find the bar you need a drink.", "qid":"1000", "next":"bar_intro"},
-      {"title":"Make your way to the table of scones.", "qid":"1001", "next":"scone_1"}
+      {"title":"Make your way to the table of scones.", "qid":"1001", "next":"scone_1"},
+      {"title":"Try mingling in the Main Hall.", "qid":"1225", "next":"main_hall_mingling"}
     ],
     "category":"narrative",
     "type":"link"
@@ -107,7 +108,47 @@
       {"type":"text", "src":"/narrative/mrs_aster_kitchen_talk"}
     ],
     "labels":[
-      {"title":"Feeling unsettled, you decide to take another look at Mr. Hollyhock’s portrait in the Trophy Room.", "qid":"1213", "next":"trophy_room_intro"}
+      {"title":"Feeling unsettled, you decide to take another look at Mr. Hollyhock’s portrait in the Trophy Room.", "qid":"1213", "next":"trophy_room_intro"},
+      {"title":"Go back to the main hall and pretend this was just a normal conversations", "qid":"1214", "next":"main_hall_mingling"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "main_hall_mingling":{
+    "title":"The Main Hall",
+    "media": [
+      {"type":"text", "src":"/narrative/main_hall_mingling"}
+    ],
+    "labels":[
+      {"title":"Check out the Trophy Room. Might as well browse the club’s history.", "qid":"1215", "next":"trophy_room_intro"},
+      {"title":"You could keep mingling, or you could do something infinitely more interesting—like see where that hallway leads.", "qid":"1216", "next":"locked_office"}
+      {"title":"This is all a bit much. A quick breath of fresh air sounds nice.", "qid":"1222", "next":"back_patio_intro"},
+      {"title":"Mr. Shovelton sees everything. Maybe he knows something useful.", "qid":"1223", "next":"shovelton_intro"},
+      {"title":"Someone stands apart from the crowd, watching. You take a closer look.", "qid":"1226", "next":"mr_cuttingsworth_observed"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "locked_office":{
+    "title":"The Locked Office: A Glimpse Inside",
+    "media": [
+      {"type":"text", "src":"/narrative/locked_office"}
+    ],
+    "labels":[
+      {"title":"Leave the office for now and return to mingling. Maybe another opportunity will present itself.", "qid":"1219", "next":"main_hall_mingling"},
+      {"title":"Go find the bartender", "qid":"1220", "next":"bar_intro_2"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "shovelton_intro":{
+    "title":"Stay in Your Lane",
+    "media": [
+      {"type":"text", "src":"/narrative/shovelton_intro"}
+    ],
+    "labels":[
+      {"title":"Return to mingling in the Main Hall.", "qid":"1223", "next":"main_hall_mingling"},
+      {"title":"Step outside for fresh air.", "qid":"1224", "next":"back_patio_intro"}
     ],
     "category":"narrative",
     "type":"link"
@@ -150,13 +191,14 @@
     "type":"link"
   },
   "bar_intro_2":{
-    "title":"The Bar Again",
+    "title":"Sizing Up the Bartender",
     "media": [
       {"type":"text", "src":"/narrative/bar_intro_2"}
     ],
     "labels":[
-      {"title":"You reply “What I really need is a place to get away and process a weird experience I just had. A glass of white wine please”", "qid":"1026", "next":"bar_advice"},
-      {"title":"You reply “Beer please.” but add “Have you noticed an outdoorsy looking, tall woman who speaks in riddles?”", "qid":"1027", "next":"bar_advice_2"}
+      {"title":"Casually order a drink and ease into conversation.", "qid":"1026", "next":"bar_casual_chat"},
+      {"title":"Get straight to the point and ask about the office key.", "qid":"1027", "next":"bar_key_request"},
+      {"title":"Change your mind and walk away—maybe there’s another approach.", "qid":"1221", "next":"main_hall_mingling"}
     ],
     "category":"narrative",
     "type":"link"
@@ -838,13 +880,24 @@
     "type":"link"
   },
   "mr_cuttingsworth_intro":{
+    "title":"Mr. Cuttingsworth on the Edges",
+    "media": [
+      {"type":"text", "src":"/narrative/mr_cuttingsworth_observed"}
+    ],
+    "labels":[
+      {"title":"Puzzled by the cryptic comments, you leave to find the mystery guest and ask her what they mean.", "qid":"1120", "next":"lost_in_the_crowd"},
+      {"title":"You try to think of something to say but nothing comes. You could use a drink.", "qid":"1121", "next":"bar_advice_2"}
+    ],
+    "category":"narrative",
+    "type":"link"
+  },
+  "mr_cuttingsworth_observed":{
     "title":"Mr. Cuttingsworth",
     "media": [
       {"type":"text", "src":"/narrative/mr_cuttingsworth_intro"}
     ],
     "labels":[
-      {"title":"Puzzled by the cryptic comments, you leave to find the mystery guest and ask her what they mean.", "qid":"1120", "next":"lost_in_the_crowd"},
-      {"title":"You try to think of something to say but nothing comes. You could use a drink.", "qid":"1121", "next":"bar_advice_2"}
+      {"title":"You leave him to his strange musings and rejoin the crowd.", "qid":"1227", "next":"main_hall_mingling"}
     ],
     "category":"narrative",
     "type":"link"
