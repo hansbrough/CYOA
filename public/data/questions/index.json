@@ -30,7 +30,8 @@
   "scone_1":{
     "title":"The Scone Table",
     "media": [
-      {"type":"text", "src":"/narrative/scone_1"}
+      {"type":"text", "src":"/narrative/scone_1"},
+      {"type":"image", "src":"/images/scone_1.webp"}
     ],
     "labels":[
       {"title":"It’s quite difficult to listen to Ms. Greene prattle on about her silly scones - time for a drink.", "qid":"1005", "next":"drunk_1"},
