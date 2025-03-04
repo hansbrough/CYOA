@@ -2,11 +2,11 @@
 * Simple example of using the 'question-tree-core' package in React.
 */
 import React, { useEffect, useState } from 'react';
-import DecisionTree from 'question-tree-core';
-//import DecisionTree from "../utils/DecisionTree";// or debug w/the unpackaged files
+//import DecisionTree from 'question-tree-core';
+import DecisionTree from "../utils/DecisionTree";// or debug w/the unpackaged files
 import ReactMarkdown from 'react-markdown';
 
-const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) => {
+const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...',intro_img_src}) => {
   const [decisionTreeInitializing, setDecisionTreeInitializing] = useState();
   const [decisionTreeInitialized, setDecisionTreeInitialized] = useState();
   const [currentQuestion, setCurrentQuestion] = useState();
@@ -97,7 +97,10 @@ const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) 
   return (
     <div className="graph-ui">
       {!currentQuestion &&
-        <div style={{padding:".5rem"}}>{intro_text}</div>
+        <div>
+          <img key="introduction_image" src={intro_img_src} alt="bookcover" style={{width:"100%"}} />
+          <h4 style={{padding:".5rem"}}>{intro_text}</h4>
+        </div>
       }
       {currentQuestion &&
         <div style={{padding:".5rem"}}>
@@ -105,10 +108,10 @@ const GraphUI = ({graph_path, question_set_path, intro_text='Introduction...'}) 
           <p><em>Module ID:</em> "{currentQuestion.module}"</p>
           <p><em>Graph Position:</em> {currentQuestion.position.current} of {currentQuestion.position.total} nodes</p>
           <hr></hr>
-          <h4>{currentQuestion.title}</h4>
+          <h2>{currentQuestion.title}</h2>
           {currentQuestion.media &&
             currentQuestion.media.map(item => item.type==='image' &&
-              <img key={currentQuestion.id} src={item.src} alt="" />
+              <img key={currentQuestion.id} src={item.src} alt="" style={{width:"100%"}} />
             )
           }
           {currentNarrative && (

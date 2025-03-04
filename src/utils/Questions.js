@@ -44,6 +44,12 @@ const Questions = function() {
     let node = question;
     if(question.conditional) {
       const prevQuestion = this.getNodeById(question.previous);
+
+      //prevent recursion after navigating back to a previous question node.
+      if(prevQuestion?.previous === question.id) {
+        return node;
+      }
+
       if(prevQuestion.conditional) {
         node = this.getFirstConditionalInPath(prevQuestion);//continue recursive look back.
       } else {
